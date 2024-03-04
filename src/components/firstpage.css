@@ -1,0 +1,405 @@
+.container{
+    /* background-image: url(/src/images/1.jpg); */
+    /* background-image: linear-gradient(rgba(46, 40, 40, 0.5),rgba(7, 0, 0, 0.4)) ,url(/src/images/10.jpg); */
+    background-image: linear-gradient(rgba(55, 11, 92, 0.6),rgba(34, 3, 54, 0.1)) ,url(/src/images/10.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+.check{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sticky{
+    position: fixed;
+    height: 18vh;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background-color: rgb(46, 40, 40);
+    z-index: 1000;
+}
+.logo img{
+    object-fit: cover;
+    /* top: -5%; */
+    width: 100%;
+    position: relative;
+    /* left: 30%; */
+    height: 8vh;
+    /* mix-blend-mode: multiply; */
+    /* filter: brightness(1); */
+    /* filter: contrast(1); */
+}
+.more a{
+    font-size: 1.9rem;
+}
+/* .navbarBox{
+    width: 90%;
+} */
+.navbarBox li{
+    display: inline-block;
+    padding: 28px 13px;
+    font-size: 1.2rem;
+}
+
+.navbarBox a:hover{
+    color: #c819eb;
+    /* color: rgb(255, 204, 138); */
+    /* box-shadow: 5px 5px 9px 2px rgb(87, 87, 87); */
+    transition: 0.6s ease-in-out;
+}
+.navbarBox li:hover{
+    transform: translateY(-4px);
+    transition: 0.7s all ease-out;
+
+}
+.navbarBox a,.box-for-nav a{
+    text-decoration: none;
+    color: white;
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Protest Riot", sans-serif;
+    font-size: 1.2rem;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.logo{
+    font-size: 2rem;
+    letter-spacing: 3px;
+    width: 35%;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+    padding: 60px 90px;
+    cursor: pointer;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Climate Crisis', sans-serif; */
+}
+.fa-search{
+    color: white;
+}
+.navbarBox ul{
+    padding:30px 30px;
+
+}
+.fa{
+    background: transparent;
+    cursor: pointer;
+}
+.centerpart{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 50%;
+    height: 70vh;
+    overflow: hidden;
+}
+@media only screen and (max-width:720px){
+    .centerpart{
+        width: 100%;
+        top: 20%;
+
+    }
+    #heading h2{
+        font-size: 1.4rem;
+        color: #e045ff;
+        margin-left: -5%;
+    }
+    .centerbtn{
+        margin-top: 50%;
+        margin-left: -3%;
+    }
+    .centerbtn button{
+        width: 60%;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .jumpingbox{
+        display: none;
+    }
+}
+.heading h2{
+    font-size: 2rem;
+    /* color: rgb(255, 204, 138); */
+    color: #c819eb;
+    /* font-family: "Sue Ellen Francisco", cursive; */
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 3px;
+    position: absolute;
+    padding-left: 40px;
+    top: 20%;
+}
+@media only screen and (max-width:720px){
+    .centerText{
+        width: 130%;
+        text-align: start;
+        margin-top: 40px;
+        position: absolute;
+        left: -20%;
+    }
+    #centerText p{
+        font-size: 1.7rem;
+        font-weight: 1000;
+    }
+}
+.centerText p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    /* font-family: "Titillium Web", sans-serif; */
+    font-family: "Playfair Display", serif;
+    padding-left: 40px;
+}
+.centerbtn button{
+    margin-left: 60px;
+}
+/* btn adding on css */
+.btn-hover {
+    width: 150px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f1f1f1;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #bc1be4, #842497, #ee08bc, #421aad);
+    box-shadow: 0 4px 15px 0 rgba(150, 69, 241, 0.75);
+}
+.heading{
+    padding: 60px;
+}
+.centerText{
+    /* margin-bottom: 10%; */
+    padding-left: 60px;
+}
+.centerbtn{
+    padding-left: 40px;
+}
+
+.right-cont input{
+    height: 5vh;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 15%;
+    background: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 30px;
+}
+
+.right-cont{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(6px);
+}
+input{
+    font-size: 1.2rem;
+    color: white;
+}
+.right-cont p{
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 17%;
+    right: 15%;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.placingonSearch{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 53%;
+    left: 80%;
+}
+.right-cont ::placeholder{
+    font-size: 1.4rem;
+    color: white;
+}
+.navlinesmaking{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: none;
+}
+.navLines{
+        width: 35px; /* Change this to your desired width */
+        height: 4px; /* Change this to your desired height */
+        background-color: #ffffff; /* Change this to your desired color */
+        margin: 5px 0; /* Change this to your desired margin */
+        border-radius: 20%;
+
+}
+.line2{
+    width: 28px;
+    background-color: #e885f1;
+}
+.navigationForMobile{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s ease in;
+    display: none;
+    backdrop-filter: blur(17px);
+    overflow: hidden;
+}
+.navigationForMobile ul{
+    position: absolute;
+    top: 15%;
+}
+.navigationForMobile li{
+    padding: 20px;
+    padding-left: 40px;
+}
+.navigationForMobile a{
+    text-decoration: none;
+    color: rgb(201, 179, 202);
+    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+}
+.hidden{
+    display: none;
+}
+.blanknav{
+    width: 150%;
+    text-align: center;
+    border: 0.5px solid silver;
+    position: relative;
+    left: 10%;
+    display: none;
+}
+.CloseBtnforNav{
+    position: absolute;
+    top: 5%;
+    right: 9%;
+    font-size: 50px;
+    color: white;
+}
+.CLickonNavs{
+    display: none;
+}
+
+/* Adding Media query for mobile responsive */
+
+@media only screen and (max-width:720px){
+    .navlinesmaking{
+        display: block;
+        top: 6%;
+        right: 6%;
+    }
+    .navigationForMobile{
+        display: block;
+        animation: navs 1s forwards ease-in ;
+        z-index: 1000;
+    }
+    .blanknav{
+        display: block;
+    }
+    .navigationForMobileHide{
+        display: block;
+        animation: navsHide 1s forwards ease-in ;
+    }
+    @keyframes navsHide {
+        0%{
+            transform: translateY(0%);
+        }
+        100%{
+            transform: translateY(-110%);
+        }
+    }
+    @keyframes navs {
+        0%{
+            transform: translateY(-110%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+    }
+    .navbarBox{
+        display: none;
+    }
+    .check{
+        display: none;
+    }
+    .imgformobileRes{
+        width: 70%;
+        height: 5%;
+        position:absolute;
+        top: 6.5%;
+        left: 2%;
+        background-image: url(../images/logo.png);
+        background-position: center center;
+        background-size: cover;
+    }
+}
+.box-for-nav{
+    width: 15%;
+    height: 18vh;
+}
+#submenu{
+    list-style: none;
+    display: block;
+    visibility: hidden;
+    width: 400%;
+    position: absolute;
+    top: 90%;
+    right: 30%;
+    z-index: 1000;
+}
+#submenu a{
+    float: right;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    visibility: visible;
+    background-color: #a821dd;
+
+}
+#submenu a:hover{
+    color: white;
+    width: 100%;
+}
+#submenu li{
+    width: 100%;
+    padding: 10px;
+    background-color: #a821dd;
+}
+
+

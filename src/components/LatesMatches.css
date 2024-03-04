@@ -1,0 +1,259 @@
+.container6{
+    width: 100%;
+    height: 200vh;
+    background-color: #0b0b11;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.boxes1-cont6{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.boxes2-cont6{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.mini-box-cont6{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    border-radius: 20px;
+    transform: scaleX(1.03);
+    box-shadow: 0px 0px 5px 0px rgb(168, 157, 157);
+    height: 30vh;
+    background-color: #202028;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.boxes1-cont6 p{
+    font-weight: 200;
+    font-family: "Protest Riot", sans-serif;
+    color: white;
+}
+.sm-mini-box-cont6{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sm-mini-box-cont6 img{
+    width: 50%;
+    position: relative;
+    left: 20%;
+    height: 20vh;
+    object-fit: cover;
+}
+.text-sm-mini-box-cont6 p:nth-child(1){
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+}
+.text-sm-mini-box-cont6 p:nth-child(2){
+    font-size: 1.5rem;
+    color: rgb(59, 59, 54);
+
+}
+.boxes3-cont6{
+    width: 100%;
+    height: 30vh;
+
+}
+.text-boxes1-cont6{
+    color: rgb(17, 16, 16);
+    letter-spacing: 0.8px;
+    font-size: 0.95rem;
+    padding: 10px;
+}
+.ad-pd{
+    margin-top: 50px;
+}
+@media only screen and (max-width:720px){
+    .container6{
+        height: 430vh;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    #boxes1-cont6 h1{
+        font-size: 2.2rem;
+    }
+    #boxes1-cont6 p{
+        color: silver;
+    }
+    #ad-pd{
+        margin-top: 9%;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    #ad-pd2{
+        margin: 5%;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    #mini-box-cont6{
+        width: 95%;
+        height: 90vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxes2-cont6{
+        height: 350vh;
+        flex-direction: column;
+    }
+    #sm-mini-box-cont6{
+        width: 100%;
+        height: 30vh;
+        margin-top: 10%;
+        /* border: 2px solid pink; */
+        padding-top: 10%;
+    }
+    #cont6-text1{
+        font-size: 1.3rem;
+    }
+    #cont6-text2{
+        font-size: 0.9rem;
+    }
+    #cont6-text5{
+        position: absolute;
+        top: 3%;
+        font-size: 1.3rem;
+        left: 40%;
+    }
+    #boxes3-cont6{
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 100%;
+        height: 30vh;
+    }
+    #box-1-ofcont6{
+        width: 100%;
+    }
+    #boxes3-cont6-text1{
+        width: 100%;
+        padding-left: 7%;
+        font-size: 1.3rem;
+    }
+    #boxes3-cont6-text2{
+        font-size: 1rem;
+        padding-left: 7%;
+
+    }
+    #boxes3-cont6-tex3{
+        height: 6vh;
+        position: relative;
+        left:45%;
+        font-size: 1.1rem;
+    }
+}
+.boxes1-cont6 h1{
+    font-size: 2.7rem;
+    color: white;
+}
+.text-cont6{
+    font-size: 2rem;
+    font-family: "Titillium Web", sans-serif;
+}
+.minibox-cont6{
+    width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 6%;
+    /* border: 2px solid red; */
+    height: 10vh;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.minibox-cont6-images{
+    width: 16%;
+    height: 5vh;
+    /* border: 2px solid blue; */
+}
+.minibox-cont6-images img{
+    object-fit: cover;
+    position: relative;
+    left: -50%;
+    width: 100%;
+    height: 8vh;
+    border-radius: 50%;
+}
+.h-cont6{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.text-center-cont6 p{
+    font-size: 0.9rem;
+    font-family: "Protest Revolution", sans-serif;
+    letter-spacing: 2px;
+    color: aliceblue;
+    text-align: center;
+}
+.text-center-cont6 a{
+    color: rgb(21, 146, 255);
+}
+.text-center-cont6 h2{
+    font-size: 1.7rem;
+    font-family: "Kode Mono", monospace;
+    color: white;
+    text-align: center;
+}
+.sign-VS p{
+    font-size: 2.4rem;
+    text-align: center;
+}
+.gamename-cont6{
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.7px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: rgb(163, 160, 159);
+}
+.text-align{
+    text-align: center;
+}
+.boxes3-cont6{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+.box-1-ofcont6{
+    width: 50%;
+}
+.box-1-ofcont6 p{
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+}
+.box-1-ofcont6 a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: "Playfair Display", serif;
+    color: rgb(94, 80, 80);
+}   
+

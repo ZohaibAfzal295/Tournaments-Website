@@ -1,0 +1,210 @@
+.container4{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.text-cont4{
+    display: flex;
+    justify-content: space-between;
+}
+.text-cont4 ul{
+   display: flex;
+   margin-top: 50px;
+   margin-right: 20px ;
+}
+@media only screen and (max-width:720px){
+    .container4{
+        height: 180vh;
+    }
+    .text-cont4{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .text-cont4 h1{
+        position: relative;
+        font-size: 2.1rem;
+        letter-spacing: 1px;
+        left: -7%;
+        top: 10%;
+    }
+    #text-cont4 li{
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+    .text-cont4 ul{
+        margin-top: 0;
+        margin-right: 0;
+     }
+}
+.text-cont4 h1{
+    margin-top: 50px;
+    font-family: "Alegreya", serif;
+    margin-left: 80px;
+    
+}
+.col-white{
+    color: rgb(62, 17, 88);
+}
+.text-cont4 li{
+    margin: 20px;
+    /* margin-right: 0px; */
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.active1{
+    /* color: linear-gradient( #fc6076, #ff9a44, #ef9d43, #e75516); */
+    color:  #a821dd;
+    
+
+}
+.box1-cont4{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boc4{
+    width: 25%;
+    height: 34vh;
+    background-image: linear-gradient(rgba(46, 40, 40, 0.4),rgba(7, 0, 0, 0.4)) ,url(/src/images/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: background 2s;
+}
+@media only screen and (max-width:720px){
+    .box1-cont4{
+        flex-direction: column;
+        width: 100%;
+        height: 120vh;
+    }
+    #boc4{
+        width: 90%;
+        height: 27vh;
+    }
+    #descriptionofstreams{
+        padding-top:40%;
+    }
+}
+.boc4:hover{
+    background-image: linear-gradient(rgba(46, 40, 40, 0.2),rgba(7, 0, 0, 0.2)) ,url(/src/images/4.jpg);
+    transition: 0.7s;
+    transform: translateY(-6px);
+
+}
+.boc4 {
+    position: relative;
+    width: 25%;
+    height: 34vh;
+    overflow: hidden;
+}
+
+/* .boc4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(46, 40, 40, 0.4), rgba(7, 0, 0, 0.4)), url(/src/images/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: opacity 2s ease; /* Transition opacity instead */
+/* } */
+
+/* .boc4:hover::before {
+    opacity: 0.7;
+} */ */
+
+.boc4 p{
+    font-family: "Sue Ellen Francisco", cursive;
+    letter-spacing: 1.5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    float: right;
+    padding-top:13px;
+    padding-right: 15px;
+}
+.descriptionofstreams{
+    /* margin-top: 160px; */
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    flex-direction: column;
+    padding-top: 130px;
+    padding-left: 15px;
+
+}
+.descriptionofstreams p:nth-child(1){
+    font-size: 1.5rem;
+    color: white;
+}
+.descriptionofstreams p:nth-child(2){
+    color: #a821dd;
+    font-weight: 400;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 1.15rem;
+
+}
+.boc4 p:nth-child(1){
+    color: white;
+    font-size: 1rem;
+    font-family: "Kode Mono", monospace;
+    float: right;
+}
+.textofFS{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center;
+    align-content: center; */
+    overflow: hidden;
+    margin-top: 40px;
+}
+@media only screen and (max-width:720px){
+    .textofFS{
+        flex-direction: column;
+    }
+    #textfs1 p:nth-child(1){
+        font-size: 1.4rem;
+        padding-left:20px;
+
+        font-weight: 700;
+    }
+    #textfs1 p:nth-child(2){
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-left: 40px;
+    }
+    #textfs1 button{
+        width: 50%;
+        margin-left: 23%;
+    }
+}
+.textfs1 p:nth-child(1){
+    font-size: 1.8rem;
+    font-family: "Playfair Display", serif;
+}
+.textfs1 p:nth-child(2){
+    font-size: 1.1rem;
+    color: #a821dd;
+    font-family: "Protest Revolution", sans-serif;
+}
+.textfs1 button{
+    
+    width: 150%;
+    /* border-radius: 0%; */
+    font-size: 1.1rem;
+    font-family: "Protest Riot", sans-serif;
+}
+.textfs1 button:hover{
+    border-radius: 50%;
+}
